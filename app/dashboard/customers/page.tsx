@@ -14,6 +14,7 @@ export default function Page() {
         width={1000}
         height={760}
         alt="Screenshots of the dashboard project showing desktop and mobile versions"
+        unoptimized={process.env.ENVIRONMENT === "PRODUCTION"}
       />
     </div>);
 }
